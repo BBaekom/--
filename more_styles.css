@@ -1,0 +1,15 @@
+body {
+    color: purple;
+}
+
+section {
+    color: aqua;
+}
+
+nav {
+    color: green;
+}
+
+button {
+    color: inherit;
+}

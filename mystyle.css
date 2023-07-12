@@ -1,18 +1,10 @@
+div {
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+}
+
 h1 {
-    text-align: center;
-    font-weight: boldnormal;
-    text-decoration: orange underline wavy;
-    letter-spacing: 15px;
-    font-size: 60px;
-    /* font-family: Big Calson, Futura, Arial; */
-    font-family: serif;
-    text-transform: uppercase;
-}
-
-a {
-    text-decoration: none;
-}
-
-p {
-    line-height: normal;
+    background-color: pink;
+    width: 100px;
 }

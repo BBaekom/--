@@ -61,11 +61,6 @@ a[href*="google"] {
     color: magenta;
 }
 
-.post button:hover {
-    background-color: #e63946;
-    color: #f1faee;
-}
-
 .post a:hover {
     font-weight: 700;
     text-decoration: underline;
@@ -77,4 +72,25 @@ a[href*="google"] {
 
 .post:nth-of-type(3n) {
     background-color: #dfe8dc;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #fcbf49;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+button:hover {
+    background-color: olive;
 }
