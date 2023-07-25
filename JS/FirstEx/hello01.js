@@ -52,3 +52,39 @@ console.log(0 !== false);
 console.log(1 == '1');
 console.log(1 + 4, "HI", true);
 console.warn("UH OH WARNING!");
+
+let movieLine = ["tom", "nancy"];
+movieLine[2] = "pablo";
+console.log(movieLine);
+movieLine.push('oliver');
+console.log(movieLine);
+
+let cat = "blue";
+cat.toUpperCase();
+console.log(cat);
+console.log(movieLine.push('harry', 'hermione'));
+console.log(movieLine);
+console.log(movieLine.pop());
+console.log(movieLine);
+
+let person = movieLine.pop();
+console.log(person);
+console.log(movieLine);
+movieLine.push('eva');
+console.log(movieLine);
+console.log(movieLine.shift());
+console.log(movieLine);
+console.log(movieLine.unshift('Tom'));
+console.log(movieLine);
+
+console.log(movieLine.includes("oliver"));
+
+console.log(movieLine.indexOf("olive"));
+console.log(movieLine.reverse());
+
+let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+console.log(colors);
+console.log(colors.slice(1, 5));
+console.log(colors);
+colors.splice(4, 0, 'skyblue');
+console.log(colors.sort());
