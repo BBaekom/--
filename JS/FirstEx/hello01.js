@@ -67,8 +67,8 @@ console.log(movieLine);
 console.log(movieLine.pop());
 console.log(movieLine);
 
-let person = movieLine.pop();
-console.log(person);
+let persons = movieLine.pop();
+console.log(persons);
 console.log(movieLine);
 movieLine.push('eva');
 console.log(movieLine);
@@ -88,3 +88,18 @@ console.log(colors.slice(1, 5));
 console.log(colors);
 colors.splice(4, 0, 'skyblue');
 console.log(colors.sort());
+
+// Section18
+
+const person = { firstName: 'Mick', lastName: 'Jagger' };
+const kitchenSink = {
+    favNum: 93219023,
+    isFunny: true,
+    colors: ['red', 'orange']
+};
+console.log(kitchenSink.favNum);
+
+const years = { 1999: "GOOD", 2020: "BAD" };
+let birthyear = 2020;
+console.log(years.birthyear);
+console.log(years[birthyear]); //->???
