@@ -5,7 +5,7 @@ function singSong() {
 }
 
 function greet(firstName, lastName) {
-    console.log(`Hey there, ${firstName} ${lastName[0]}.`)
+    console.log(`Hey there, ${firstName} ${lastName[0]}!`)
 }
 
 function repeat(str, numTimes) {
@@ -23,19 +23,5 @@ function add(x, y) {
     return x + y;
 }
 
-
-
-
-
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-// singSong()
-
+let num = add(3, '4');
+console.log(num);
