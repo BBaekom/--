@@ -6,7 +6,7 @@ const myMath = {
     cube(num) {
         return num ** 3;
     }
-}
+};
 
 console.log(myMath.PI);
 console.log(myMath["cube"](4));
