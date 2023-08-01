@@ -16,6 +16,15 @@ const cat = {
     color: 'grey',
     breed: 'scottish fold',
     meow() {
-        console.log("MEOW MEOW MEOW");
+        console.log(`${this.name} says MEOWWW`);
     }
-} 
+}
+
+const meow2 = cat.meow;
+cat.meow();
+
+function scream() {
+    console.log("AHHHHHHH");
+}
+
+scream();
