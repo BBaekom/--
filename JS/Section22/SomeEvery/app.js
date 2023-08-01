@@ -1,6 +1,6 @@
 const exams = [80, 98, 92, 78, 77, 90, 89, 84, 81, 77]
 
-exams.every(score => score >= 75)
+console.log(exams.some(score => score >= 75))
 
 const movies = [
     {
@@ -50,5 +50,4 @@ const movies = [
     }
 ]
 
-
-movies.some(movie => movie.year > 2015)
+console.log(movies.some(movie => movie.year > 2015))
