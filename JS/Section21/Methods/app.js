@@ -8,5 +8,14 @@ const myMath = {
     }
 };
 
-console.log(myMath.PI);
-console.log(myMath["cube"](4));
+// console.log(myMath.PI);
+// console.log(myMath["cube"](4));
+
+const cat = {
+    name: 'Blue Steele',
+    color: 'grey',
+    breed: 'scottish fold',
+    meow() {
+        console.log("MEOW MEOW MEOW");
+    }
+} 
