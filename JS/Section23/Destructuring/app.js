@@ -23,6 +23,14 @@ const user = {
     state: 'California'
 }
 
+// const firstName = user.firstName;
+// const lastName = user.lastName;
+// const email = user.email;
+
+// const { email, firstName, lastName, city, bio } = user;
+
+const { born: birthYear, died: deathYear = 'N/A' } = user;
+
 const user2 = {
     email: 'Stacy@gmail.com',
     firstName: 'Stacy',
@@ -32,32 +40,26 @@ const user2 = {
     state: 'Oklahoma'
 }
 
-// const firstName = user.firstName;
-// const lastName = user.lastName;
-// const email = user.email;
-const { email, firstName, lastName, city, bio } = user;
-
-// const { born: birthYear, died: deathYear = 'N/A' } = user;
-
 // const { city, state, died = 'N/A' } = user2;
+
 
 // ===================
 // PARAM DESTRUCTURING
 // ===================
 
-// function fullName(user) {
-//     return `${user.firstName} ${user.lastName}`
+// function fullName(user){
+//     return `${user.firstName} ${user.lastName}`;
 // }
 // function fullName(user) {
 //     const { firstName, lastName } = user;
-//     return `${firstName} ${lastName}`
+//     return `${firstName} ${lastName}`;
 // }
 
-
 function fullName({ firstName, lastName }) {
-    return `${firstName} ${lastName}`
+    return `${firstName} ${lastName}`;
 }
 
+// console.log(fullName(user));
 
 const movies = [
     {
@@ -108,14 +110,13 @@ const movies = [
 ]
 
 
-// movies.filter((movie) => movie.score >= 90)
-// movies.filter(({ score }) => score >= 90)
-
+// movies.filter(movie => movie.score >= 90);
+// movies.filter(({ score }) => score >= 90);
 
 // movies.map(movie => {
-//     return `${movie.title} (${movie.year}) is rated ${movie.score}`
+//     return `${movie.title} (${movie.year}) is rated ${movie.score}`;
 // })
 
 movies.map(({ title, score, year }) => {
-    return `${title} (${year}) is rated ${score}`
+    return `${title} (${year}) is rated ${score}`;
 })
