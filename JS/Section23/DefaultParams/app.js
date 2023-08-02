@@ -4,19 +4,22 @@
 
 // function rollDie(numSides) {
 //     if (numSides === undefined) {
-//         numSides = 6
+//         numSides = 6;
 //     }
-//     return Math.floor(Math.random() * numSides) + 1
+//     return Math.floor(Math.random() * numSides) + 1;
 // }
 
 // ============
 // THE NEW WAY!
 // ============
+
 function rollDie(numSides = 6) {
     return Math.floor(Math.random() * numSides) + 1
 }
 
 function greet(person, msg = "Hey there", punc = '!') {
-    console.log(`${msg}, ${person}${punc}`)
+    console.log(`${msg}, ${person}${punc}`);
 }
 
+console.log(greet("Joaquin", "HIII"));
+console.log(greet("Rosa", "Hiya", "!!!"));
