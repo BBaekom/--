@@ -3,13 +3,18 @@ body {
     margin: 0 auto;
 }
 
+h1 {
+    color: olive;
+}
+
 #banner {
     width: 100%;
 }
+
 img.square {
     width: 400px;
     object-fit: cover;
-    height:400px;
+    height: 400px;
 }
 
 #toc {
