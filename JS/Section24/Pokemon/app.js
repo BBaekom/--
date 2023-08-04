@@ -12,8 +12,7 @@ for (let i = 1; i <= 151; i++) {
     const newImg = document.createElement('img');
     newImg.src = `${baseURL}${i}.png`
 
-
     pokemon.appendChild(newImg);
     pokemon.appendChild(label);
-    container.appendChild(pokemon)
+    container.appendChild(pokemon);
 }
