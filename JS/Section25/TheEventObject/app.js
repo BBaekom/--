@@ -1,14 +1,14 @@
 document.querySelector('button').addEventListener('click', function (evt) {
-    console.log(evt)
+    console.log(evt);
 })
 
 // const input = document.querySelector('input');
 // input.addEventListener('keydown', function (e) {
-//     console.log(e.key)
-//     console.log(e.code)
+//     console.log(e.key);
+//     console.log(e.code);
 // })
 // input.addEventListener('keyup', function () {
-//     console.log("KEYUP")
+//     console.log('KEYUP');
 // })
 
 window.addEventListener('keydown', function (e) {
@@ -24,8 +24,8 @@ window.addEventListener('keydown', function (e) {
             break;
         case 'ArrowRight':
             console.log("RIGHT!");
-            break
+            break;
         default:
-            console.log("IGNORED!")
+            console.log("IGNORED!");
     }
 })
