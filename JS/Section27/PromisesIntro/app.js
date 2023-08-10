@@ -79,6 +79,7 @@ const fakeRequestPromise = (url) => {
 
 // THE CLEANEST OPTION WITH THEN/CATCH
 // RETURN A PROMISE FROM .THEN() CALLBACK SO WE CAN CHAIN!
+
 fakeRequestPromise('yelp.com/api/coffee/page1')
     .then((data) => {
         console.log("IT WORKED!!!!!! (page1)")
