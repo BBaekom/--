@@ -11,12 +11,11 @@
 //                 document.body.style.backgroundColor = 'green';
 //                 setTimeout(() => {
 //                     document.body.style.backgroundColor = 'blue';
-//                 }, 1000)
-//             }, 1000)
-//         }, 1000)
-//     }, 1000)
-// }, 1000)
-
+//                 }, 1000);
+//             }, 1000);
+//         }, 1000);
+//     }, 1000);
+// }, 1000);
 
 const delayedColorChange = (newColor, delay, doNext) => {
     setTimeout(() => {
@@ -25,30 +24,38 @@ const delayedColorChange = (newColor, delay, doNext) => {
     }, delay)
 }
 
-// STILL A LOT OF NESTING!!!
 delayedColorChange('red', 1000, () => {
     delayedColorChange('orange', 1000, () => {
         delayedColorChange('yellow', 1000, () => {
             delayedColorChange('green', 1000, () => {
                 delayedColorChange('blue', 1000, () => {
-
                 })
             })
         })
     })
-});
+})
 
+// // STILL A LOT OF NESTING!!!
+// delayedColorChange('red', 1000, () => {
+//     delayedColorChange('orange', 1000, () => {
+//         delayedColorChange('yellow', 1000, () => {
+//             delayedColorChange('green', 1000, () => {
+//                 delayedColorChange('blue', 1000, () => {
 
-// searchMoviesAPI('amadeus', () => {
-//     saveToMyDB(movies, () => {
-//         //if it works, run this:
-//     }, () => {
-//         //if it doesn't work, run this:
+//                 })
+//             })
+//         })
 //     })
-// }, () => {
-//     //if API is down, or request failed
-// })
+// });
 
 
-
+searchMoviesAPI('amadeus', () => {
+    saveToMyDB(movies, () => {
+        //if it works, run this:
+    }, () => {
+        //if it doesn't work, run this!
+    }, () => {
+        //if API is down, or request failed
+    });
+})
 
