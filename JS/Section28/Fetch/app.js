@@ -1,14 +1,14 @@
-fetch("https://swapi.dev/api/people/1/")
-  .then((res) => {
-    console.log("RESOLVED!", res);
-    return res.json();
-  })
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((e) => {
-    console.log("ERROR!", e);
-  });
+// fetch("https://swapi.dev/api/people/1/")
+//   .then(res => {
+//     console.log("RESOLVED!", res);
+//     return res.json()
+//   })
+//   .then((data) => {
+//     console.log("JSON DONE!", data)
+//   })
+//   .catch(e => {
+//     console.log("ERROR!", e);
+//   });
 
 // fetch("https://swapi.dev/api/people/1/")
 //   .then((res) => {
@@ -30,7 +30,7 @@ fetch("https://swapi.dev/api/people/1/")
 //     console.log("ERROR!", e);
 //   });
 
-const loadStarWarsPeople = async () => {
+const loadStarWarPeople = async () => {
   try {
     const res = await fetch("https://swapi.dev/api/people/1/");
     const data = await res.json();
@@ -41,6 +41,6 @@ const loadStarWarsPeople = async () => {
   } catch (e) {
     console.log("ERROR!!!", e);
   }
-};
+}
 
-loadStarWarsPeople();
+loadStarWarPeople();
