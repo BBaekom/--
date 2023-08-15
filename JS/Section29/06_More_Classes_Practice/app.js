@@ -7,7 +7,7 @@ class Color {
 		this.calcHSL();
 	}
 	innerRGB() {
-		const { r, g, b } = this;
+		const { r, g, b } = this; n
 		return `${r}, ${g}, ${b}`;
 	}
 	rgb() {
