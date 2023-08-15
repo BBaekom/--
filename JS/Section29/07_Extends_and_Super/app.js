@@ -28,3 +28,10 @@ class Dog extends Pet {
 		return `${this.name} scarfs his food!`;
 	}
 }
+
+const dog = new Dog('멍이', 12);
+console.log(dog.bark());
+console.log(dog.eat());
+
+const cat = new Cat('모래', 4, 13);
+console.log(cat.livesLeft);
