@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#firstHr {
+    width: 45%;
+}
+
+#container {
+    display: flex;
+}
+
+#H2 {
+    margin-left: 500px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#secondHr {
+    width: 75%;
+}
+
+#see {
+    margin-left: 20px;
+    display: flex;
+    font-weight: 500;
+    color: grey;
+}
+
+#search {
+    margin-left: 210px;
+}
