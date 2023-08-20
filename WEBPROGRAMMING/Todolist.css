@@ -33,3 +33,45 @@ h1 {
 #search {
     margin-left: 210px;
 }
+
+#mainscript {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+#statement {
+    padding-top: 15px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.one {
+    display: flex;
+}
+
+.inbox {
+    padding-right: 5px;
+}
+
+#result1 {
+    padding-left: 10px;
+}
+
+.plus {
+    padding-left: 10px;
+}
+
+#before-start {
+    background-color: pink;
+}
+
+#running {
+    background-color: aquamarine;
+}
+
+#end {
+    background-color: gainsboro;
+}
