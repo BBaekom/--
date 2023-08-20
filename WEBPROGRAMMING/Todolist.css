@@ -37,15 +37,15 @@ h1 {
 #mainscript {
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
 }
 
 #statement {
-    padding-top: 15px;
-    padding-right: 20px;
+    padding: 10px 0px;
+    margin-right: 20px;
     display: flex;
+    width: 300px;
     justify-content: space-between;
-    background-color: aquamarine;
+    /* border: 1px solid red; */
 }
 
 .one {
@@ -58,6 +58,8 @@ h1 {
 
 #result1 {
     padding-left: 10px;
+    color: grey;
+    font-weight: 700;
 }
 
 .plus {
@@ -74,4 +76,25 @@ h1 {
 
 #end {
     background-color: gainsboro;
+}
+
+#list {
+    background-color: rgba(230, 235, 232, 0.4);
+    border-radius: 5%;
+    margin: 10px 0px;
+    margin-right: 20px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newScript {
+    padding-left: 20px;
+    color: grey;
+}
+
+.addNew {
+    border: none;
+    padding-right: 15px;
+    background-color: rgba(230, 235, 232, 0);
 }
