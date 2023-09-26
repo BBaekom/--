@@ -34,6 +34,12 @@ h1 {
     margin-left: 210px;
 }
 
+.type {
+    background-color: rgba(169, 169, 169, 0.3);
+    border: none;
+    padding: 5px;
+}
+
 #mainscript {
     display: flex;
     justify-content: center;
@@ -78,23 +84,45 @@ h1 {
     background-color: gainsboro;
 }
 
-#list {
-    background-color: rgba(230, 235, 232, 0.4);
-    border-radius: 5%;
-    margin: 15px 0px;
-    margin-right: 20px;
-    padding: 15px 0px;
-    display: flex;
-    justify-content: space-between;
-}
 
 .newScript {
     padding-left: 20px;
     color: grey;
+    background-color: rgba(230, 235, 232, 0.4);
+    padding: 20px 10px;
+    font-size: large;
+    border: none;
+}
+
+#list {
+    border-radius: 5%;
+    margin: 15px 0px;
+    margin-right: 20px;
+    display: flex;
 }
 
 .addNew {
     border: none;
     padding-right: 15px;
-    background-color: rgba(230, 235, 232, 0);
+    padding-left: 25px;
+    background-color: rgba(230, 235, 232, 0.4);
+}
+
+.newBox {
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 5px;
+    padding: 20px 10px;
+    padding-top: 15px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    box-shadow: 0 4px 10px -4px grey;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-dots2 {
+    padding-top: 5px;
+    padding-right: 5px;
 }
